@@ -1,0 +1,16 @@
+title: crates.io Trusted Publishing 日本語訳
+lang: ja
+baseurl: /trusted-publishing-ja
+url: https://rustsecjp.github.io
+repo_url: https://github.com/RustSecJP/trusted-publishing-ja
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - .github
+  - README.md
+  - NOTICE.md

@@ -1,0 +1,7 @@
+# trusted-publishing-ja
+
+> RustSecJP（非公式のコミュニティ）による、Rust のセキュリティ文書の非公式な日本語訳。原著者の確認や公認は受けていない。
+
+## 日本語訳
+
+- [crates.io の Trusted Publishing（公式ドキュメント日本語訳）](https://rustsecjp.github.io/trusted-publishing-ja/): API トークンを置かずに GitHub Actions や GitLab CI/CD から OIDC でクレートを公開する設定方法の、非公式な日本語訳。原文は https://crates.io/docs/trusted-publishing 。

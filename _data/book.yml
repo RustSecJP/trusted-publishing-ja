@@ -1,0 +1,14 @@
+short: Trusted Publishing
+title: crates.io の Trusted Publishing
+original_title: "crates.io: Trusted Publishing"
+seo_title: crates.io の Trusted Publishing（公式ドキュメント日本語訳）
+summary: crates.io の公式ドキュメント「Trusted Publishing」の、非公式な日本語訳。API トークンをリポジトリに置かずに、GitHub Actions や GitLab CI/CD から OIDC でクレートを公開する設定方法を訳している。
+author: crates.io チーム（The Rust Project）
+source: https://crates.io/docs/trusted-publishing
+license: MIT または Apache-2.0
+license_url: https://github.com/rust-lang/crates.io/blob/main/LICENSE-MIT
+version: 2026-11-20 時点（コミット 97cd67a）
+disclaimer: crates.io・Rust Project・Rust Foundation とは提携していません。
+nav: []
+chapters:
+  - {file: guide.html, title: Trusted Publishing}
