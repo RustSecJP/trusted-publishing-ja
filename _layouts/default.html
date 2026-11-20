@@ -56,7 +56,7 @@
 {% endif %}
     <aside class="credit">
       <p><b>これは非公式の日本語訳です。</b>原著者による確認や公認を受けたものではありません。内容が食い違う場合は原文が優先されます。</p>
-      <p>原文: <a href="{{ book.source }}">{{ book.original_title }}</a>（{{ book.author }}）／ライセンス: <a href="{{ book.license_url }}">{{ book.license }}</a>／訳した版: {{ book.version }}</p>
+      <p>原文: <a href="{{ book.source }}">{{ book.original_title }}</a>（{{ book.author }}）／ライセンス: <a href="{{ book.license_url }}">{{ book.license }}</a>／訳した版: {{ book.version }}{% if book.translated %}／翻訳日: {{ book.translated }}{% endif %}</p>
     </aside>
   </main>
   <aside class="toc" aria-label="このページの目次" hidden><p>このページ</p><ol id="toc"></ol></aside>

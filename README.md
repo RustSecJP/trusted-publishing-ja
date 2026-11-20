@@ -10,6 +10,15 @@ Trusted Publishing は、長期間有効な API トークンをリポジトリ�
 
 原文には独立した README が無いので、この README は日本語訳の案内だけを載せています。
 
+## 訳した版
+
+| | |
+|---|---|
+| 原文の版 | 2026-11-20 時点（コミット [`97cd67a`](https://github.com/rust-lang/crates.io/commit/97cd67a99f1c2e97708ad3bff717e7397fd106cb)） |
+| 翻訳日 | 2026-11-20 |
+
+原文がこの版より後に更新されている場合、訳は古い内容のままです。
+
 ## 出典とライセンス
 
 - 原文: https://crates.io/docs/trusted-publishing （ソース: [rust-lang/crates.io](https://github.com/rust-lang/crates.io) の `svelte/src/routes/docs/trusted-publishing/+page.svelte`）

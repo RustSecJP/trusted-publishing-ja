@@ -8,6 +8,7 @@ source: https://crates.io/docs/trusted-publishing
 license: MIT または Apache-2.0
 license_url: https://github.com/rust-lang/crates.io/blob/main/LICENSE-MIT
 version: 2026-11-20 時点（コミット 97cd67a）
+translated: 2026-11-20
 disclaimer: crates.io・Rust Project・Rust Foundation とは提携していません。
 nav: []
 chapters:
