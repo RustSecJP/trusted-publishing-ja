@@ -2,7 +2,7 @@
 @media(prefers-color-scheme:dark){:root{--bg:#0e0e0e;--panel:#0e0e0e;--ink:#f2f2f2;--sub:#a6a6a6;--line:#3a3a3a;--rule:#f2f2f2;--soft:#1c1c1c;--code:#1c1c1c;--acc:#f2f2f2;--acc-ink:#0e0e0e}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.85 "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP","Yu Gothic",Meiryo,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.85 Inter,"Noto Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{text-decoration-thickness:2px}
 a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
@@ -31,7 +31,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .doc h4{font-size:15px;margin:26px 0 8px;font-weight:700}
 .doc ul,.doc ol{padding-left:1.5em}
 .doc li{margin:4px 0}
-.doc code{background:var(--code);padding:.12em .36em;font:13.5px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.doc code{background:var(--code);padding:.12em .36em;font:13.5px/1.6 "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .doc pre{background:var(--code);padding:16px 18px;overflow-x:auto;line-height:1.6;border-left:2px solid var(--rule)}
 .doc pre code{background:none;padding:0}
 .doc blockquote{margin:20px 0;padding:12px 18px;border:1px solid var(--line);border-left:3px solid var(--rule);background:var(--bg)}
@@ -81,7 +81,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .axes{display:grid;gap:0}
 .axis{padding:12px 0;border-bottom:1px solid var(--line)}
 .axis label{display:flex;justify-content:space-between;gap:8px;font-weight:700;font-size:14.5px;margin-bottom:6px}
-.axis label span{color:var(--sub);font:12.5px ui-monospace,Menlo,monospace;font-weight:400}
+.axis label span{color:var(--sub);font:12.5px "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-weight:400}
 .axis select{width:100%;padding:8px 10px;border:1px solid var(--rule);border-radius:0;background:var(--bg);color:var(--ink);font:inherit;font-size:14.5px}
 .grp{margin:26px 0 0;padding-bottom:6px;border-bottom:1px solid var(--rule);font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--sub)}
 .grp:first-child{margin-top:0}
@@ -89,7 +89,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .score{font-size:60px;font-weight:700;line-height:1;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .band{display:inline-block;margin:12px 0 14px;padding:2px 10px;border:1px solid var(--rule);font-weight:700;font-size:13.5px}
 .band[data-b="緊急"],.band[data-b="高"]{background:var(--ink);color:var(--bg)}
-.vec{display:block;word-break:break-all;background:var(--code);padding:10px 12px;font:12.5px/1.6 ui-monospace,Menlo,monospace}
+.vec{display:block;word-break:break-all;background:var(--code);padding:10px 12px;font:12.5px/1.6 "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .result button{margin-top:10px;width:100%;padding:9px;border:1px solid var(--rule);border-radius:0;background:var(--bg);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
 .result button:hover{background:var(--ink);color:var(--bg)}
 .steps{margin:14px 0 0;font-size:12.5px;color:var(--sub);line-height:1.7}
@@ -115,7 +115,7 @@ a:focus-visible,button:focus-visible,select:focus-visible,summary:focus-visible{
 .reco>.reco-h{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;margin:0 0 8px;font-weight:700}
 .reco>.reco-h .kind{padding:0 8px;background:var(--ink);color:var(--bg);font-size:12.5px}
 .reco[type="Recommendation"]>.reco-h .kind{background:var(--bg);color:var(--ink);border:1px solid var(--rule)}
-.reco>.reco-h .rid{font:12.5px ui-monospace,Menlo,monospace;color:var(--sub);font-weight:400}
+.reco>.reco-h .rid{font:12.5px "JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--sub);font-weight:400}
 .doc div.note{background:var(--soft);border:0;border-left:3px solid var(--line)}
 .warning,.important{border-left:4px solid var(--rule);background:var(--soft)}
 .reco>:last-child,.warning>:last-child,.important>:last-child,.example>:last-child,.examplereco>:last-child,.definition>:last-child{margin-bottom:0}
