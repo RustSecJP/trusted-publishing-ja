@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 </head>
 <body>
 <a class="skip" href="#main">本文へ移動</a>
@@ -68,6 +68,6 @@
   <p>RustSecJP は<b>非公式</b>のコミュニティです。{{ book.disclaimer }}</p>
   <p><a href="{{ site.repo_url }}">GitHub</a> ・ <a href="https://rustsecjp.github.io/">RustSecJP のトップページ</a></p>
 </footer>
-<script src="{{ '/assets/site.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 </body>
 </html>
