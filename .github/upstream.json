@@ -1,0 +1,1 @@
+{n  "upstreams": [n    {n      "repo": "rust-lang/crates.io",n      "branch": "main",n      "paths": [n        "svelte/src/routes/docs/trusted-publishing"n      ],n      "base": "97cd67a99f1c2e97708ad3bff717e7397fd106cb"n    }n  ]n}
