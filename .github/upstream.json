@@ -1,1 +1,12 @@
-{n  "upstreams": [n    {n      "repo": "rust-lang/crates.io",n      "branch": "main",n      "paths": [n        "svelte/src/routes/docs/trusted-publishing"n      ],n      "base": "97cd67a99f1c2e97708ad3bff717e7397fd106cb"n    }n  ]n}
+{
+  "upstreams": [
+    {
+      "repo": "rust-lang/crates.io",
+      "branch": "main",
+      "paths": [
+        "svelte/src/routes/docs/trusted-publishing"
+      ],
+      "base": "97cd67a99f1c2e97708ad3bff717e7397fd106cb"
+    }
+  ]
+}
